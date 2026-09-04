@@ -158,7 +158,10 @@
     .highlight-gold { color: var(--neon-gold) !important; font-weight: 800; }
     .highlight-cyan { color: var(--neon-cyan) !important; font-weight: 800; }
 
-    .footer { margin-top: 48px; font-size: 11px; color: #9c97aa; letter-spacing: 2.5px; font-weight: 500; opacity: 0.65; }
+    .footer { margin-top: 48px; font-size: 11px; color: #9c97aa; letter-spacing: 2.5px; font-weight: 500; opacity: 0.85; }
+    .footer a { color: var(--neon-cyan); text-decoration: none; transition: var(--transition-smooth); }
+    .footer a:hover { text-decoration: underline; color: #fff; }
+
     @keyframes pulseGlow { 0% { transform: scale(0.94); box-shadow: 0 0 10px rgba(0, 240, 255, 0.25); } 100% { transform: scale(1.06); box-shadow: 0 0 25px rgba(0, 240, 255, 0.55); } }
 </style>
 </head>
@@ -437,7 +440,9 @@
     </div>
 </div>
 
-<div class="footer">© 2026 閒人案內所 ｜ 快速發單與新手導覽專區</div>
+<div class="footer">
+    © 2026 閒人案內所 ｜ <a href="https://chiu-ch.github.io/xuan.min/" target="_blank">返回官方個人主頁總覽</a>
+</div>
 </div>
 
 <!-- 📋 發單前同意書確認彈窗 -->
